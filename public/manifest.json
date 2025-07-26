@@ -1,0 +1,59 @@
+{
+  "short_name": "BN Sound",
+  "name": "BN Sound System - ระบบจัดการเสียง",
+  "description": "ระบบจัดการการจองและเช่าอุปกรณ์เครื่องเสียง พร้อมแดชบอร์ดและการจัดการคิว",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#667eea",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "categories": ["business", "productivity", "entertainment"],
+  "lang": "th",
+  "scope": "/",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "shortcuts": [
+    {
+      "name": "แดชบอร์ด",
+      "short_name": "Dashboard",
+      "description": "ดูภาพรวมและสถิติ",
+      "url": "/",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "จองคิว",
+      "short_name": "Booking",
+      "description": "จัดการการจองและคิว",
+      "url": "/booking",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "logo512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Dashboard หลัก"
+    }
+  ]
+}
